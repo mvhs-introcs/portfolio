@@ -64,3 +64,51 @@ h1 {
 .social span:hover {
   background: #A7A37E;
 }
+
+/**********************
+  Page
+**********************/
+
+.page {
+  padding: 20px;
+  min-height: 2000px;
+}
+
+/*********************
+  Menu
+*********************/
+
+.menu {
+  background: #046380;
+  position: fixed;
+  top: 92px;
+  border-radius: 10px;
+  padding: 14px 40px;
+}
+
+.menu ul {
+  list-style-type: none;
+  -webkit-margin-before: 0;
+  -webkit-padding-start: 0;
+  -webkit-margin-after: 0;
+}
+
+.menu li {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #EFECCA;
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+.menu li a {
+  color: #EFECCA;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #E6E2AF;
+}
