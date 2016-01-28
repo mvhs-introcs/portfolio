@@ -3,18 +3,64 @@
 }
 
 body {
-  background: #ccc;
+  background: #A7A37E;
 }
 
 .main {
   width: 968px;
   margin: 0 auto;
   min-height: 100vh;
-  background: white;
-  padding: 20px;
+  background: #EFECCA;
 }
 
 h1 {
   color: red;
   margin-top: 0;
+}
+
+/*******************
+  Header
+*******************/
+
+.main header {
+  background: #046380;
+  padding: 20px;
+  color: #EFECCA;
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.social {
+  float: right;
+}
+
+.social ul {
+  list-style-type: none;
+  margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-padding-start: 0;
+}
+  
+.social li {
+  display: inline-block;
+  margin-left: 24px;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.social span {
+  font-size: 32px;
+  color: #046380;
+  background: #EFECCA;
+  padding: 6px;
+  padding-bottom: 0; 
+}
+
+.social span:hover {
+  background: #A7A37E;
 }
