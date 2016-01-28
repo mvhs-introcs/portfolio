@@ -1,3 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ccc;
+}
+
+.main {
+  width: 968px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: white;
+  padding: 20px;
+}
+
 h1 {
   color: red;
+  margin-top: 0;
 }
